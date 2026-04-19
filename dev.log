@@ -1,0 +1,12 @@
+▲ Next.js 16.1.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://21.0.10.83:3000
+
+✓ Starting...
+✓ Ready in 962ms
+ GET /api 200 in 468ms (compile: 445ms, render: 23ms)
+[NSE API] Fetched 497 stocks from NIFTY 500 index
+NSE API error: 404 Not Found for /api/live-analysis-volume-gap?type=gainers
+NSE API error: 404 Not Found for /api/live-analysis-volume-gap?type=losers
+ GET /api/nse?type=gainers&refresh=true&volumeTf=30s 200 in 582ms (compile: 45ms, render: 536ms)
+ 582ms (compile: 45ms, render: 536ms)
